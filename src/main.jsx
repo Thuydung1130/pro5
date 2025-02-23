@@ -7,7 +7,7 @@ import allReducers from "./reducers/index.jsx"
 const store=createStore(allReducers)
 createRoot(document.getElementById('root')).render(
   <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename="/pro5">
      <App />
   </BrowserRouter>
   </Provider>
