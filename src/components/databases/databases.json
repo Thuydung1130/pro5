@@ -1,0 +1,675 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fullName": "nguyen thi A",
+      "email": "nguyenthia@gmail.com",
+      "password": "nguyenthia",
+      "token": "fjsjfopsfksofgsd"
+    },
+    {
+      "id": "2",
+      "fullName": "nguyen thi b",
+      "email": "nguyenthib@gmail.com",
+      "password": "nguyenthib",
+      "token": "edshdcszkgs"
+    },
+    {
+      "id": "3",
+      "fullName": "nguyen thi C",
+      "email": "nguyenthic@gmail.com",
+      "password": "nguyenthic",
+      "token": "sfljseijrapawa"
+    },
+    {
+      "id": "4",
+      "fullName": "nguyen thi D",
+      "email": "nguyenthid@gmail.com",
+      "password": "nguyenthid",
+      "token": "dflkjcsoifjoai"
+    },
+    {
+      "id": "5",
+      "fullName": "nguyen thi E",
+      "email": "nguyenthie@gmail.com",
+      "password": "nguyenthie",
+      "token": "safkjajfapofjap"
+    },
+    {
+      "id": "8b34",
+      "fullName": "Nguyen Thi F",
+      "email": "nguyenthif@gmail.com",
+      "password": "nguyenthif",
+      "token": "7L5IQPd6hhZWeT6OZYip"
+    }
+  ],
+  "topics": [
+    {
+      "id": "1",
+      "name": "HTML5"
+    },
+    {
+      "id": "2",
+      "name": "CSS3"
+    },
+    {
+      "id": "3",
+      "name": "Javascaript"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "topicID": 1,
+      "quesion": "HTML là viết tắt của...",
+      "answer": [
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Text Markup Language"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "2",
+      "topicID": 1,
+      "quesion": "Ai là người đưa ra các tiêu chuẩn Web?",
+      "answer": [
+        "Tổ chức World Wide Web Consortium (W3C)",
+        "Apple",
+        "Google"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "3",
+      "topicID": 1,
+      "quesion": "Chọn thẻ HTML đúng nhất cho định dạng tiêu đề lớn nhất?",
+      "answer": [
+        "<h6>",
+        "<h1>",
+        "<head>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "4",
+      "topicID": 1,
+      "quesion": "Thẻ nào dùng để xuống dòng trong HTML?",
+      "answer": [
+        "<enter>",
+        "<br>",
+        "<lb>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "5",
+      "topicID": 1,
+      "quesion": "Mã HTML nào thực hiện việc thêm màu nền cho trang web?",
+      "answer": [
+        "<body style=\"background-color:red;\">",
+        "<body bg=\"red\">",
+        "<body style=\"color:red;\">"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "6",
+      "topicID": 1,
+      "quesion": "Chọn thẻ HTML chính xác dùng để xác định văn bản quan trọng",
+      "answer": [
+        "<important>",
+        "<strong>",
+        "<b>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "7",
+      "topicID": 1,
+      "quesion": "Chọn thẻ HTML được dùng nhấn mạnh nội dung văn bản",
+      "answer": [
+        "<em>",
+        "<italic>",
+        "<b>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "8",
+      "topicID": 1,
+      "quesion": "Mã HTML chính xác để tạo liên kết là...",
+      "answer": [
+        "<a name=\"https://quantrimang.com\">QuanTriMang</a>",
+        "<a href=\"https://quantrimang.com\">Quản Trị Mạng</a>",
+        "<a url=\"https://quantrimang.com\">Quản Trị Mạng</a>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "9",
+      "topicID": 1,
+      "quesion": "Mã HTML nào bạn sẽ dùng khi muốn mở link trên 1 tab hoặc cửa sổ mới?",
+      "answer": [
+        "<a href=\"https://quantrimang.com\" target=\"new\">",
+        "<a href=\"https://quantrimang.com\" new>",
+        "<a href=\"https://quantrimang.com\" target=\"_blank\">"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "10",
+      "topicID": 1,
+      "quesion": "Những thẻ HTML nào dùng để định nghĩa cấu trúc của bảng?",
+      "answer": [
+        "<table><tr><tt>",
+        "<table><tr><td>",
+        "<table><head><tfoot>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "11",
+      "topicID": 2,
+      "quesion": "CSS được sử dụng để làm gì",
+      "answer": [
+        "Tạo cấu trúc trang web.",
+        "Thêm kiểu dáng (màu sắc, bố cục) cho trang web",
+        "header"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "12",
+      "topicID": 2,
+      "quesion": "Cách nào dưới đây để chèn CSS vào một trang HTML",
+      "answer": [
+        "Chỉ chèn trong file CSS riêng (style.css)..",
+        "Sử dụng thẻ trong hoặc thuộc tính style.",
+        "Chèn CSS thông qua JavaScript."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "13",
+      "topicID": 2,
+      "quesion": " Thuộc tính CSS nào được sử dụng để thay đổi màu chữ",
+      "answer": [
+        "color",
+        "font-color",
+        "text-color"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "14",
+      "topicID": 2,
+      "quesion": "  Để thay đổi kiểu chữ của đoạn văn, thuộc tính nào được sử dụng?",
+      "answer": [
+        "text-style",
+        "font-family",
+        "font-type"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "15",
+      "topicID": 2,
+      "quesion": " Đâu là cú pháp đúng để áp dụng màu nền xanh cho một phần tử div?",
+      "answer": [
+        " background: blue;",
+        "background-color: blue;",
+        " bg-color: blue;"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "16",
+      "topicID": 2,
+      "quesion": "CSS Selector nào chọn tất cả các phần tử p trong trang web?",
+      "answer": [
+        "#p",
+        "p",
+        ".p"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "17",
+      "topicID": 2,
+      "quesion": "Thuộc tính nào được sử dụng để căn chỉnh văn bản vào giữa?",
+      "answer": [
+        "align-text: center;",
+        "text-center: true;",
+        "text-align: center;"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "18",
+      "topicID": 2,
+      "quesion": "CSS viết tắt của cụm từ nào",
+      "answer": [
+        "Creative Style Sheets",
+        "Cascading Style Sheets",
+        "Custom Style Sheets"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "19",
+      "topicID": 2,
+      "quesion": " Đâu là cách viết đúng để thêm đường viền dày 2px, màu đỏ cho một phần tử div?",
+      "answer": [
+        "border: 2px solid red;",
+        " border: red solid 2px;",
+        " border: 2 solid px red;"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "20",
+      "topicID": 2,
+      "quesion": " Đâu là cách viết đúng để thêm đường viền dày 2px, màu đỏ cho một phần tử div?",
+      "answer": [
+        "border: 2px solid red;",
+        " border: red solid 2px;",
+        " border: 2 solid px red;"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "21",
+      "topicID": 3,
+      "quesion": " Trong Javascript sự kiện OnUnload thực hiện khi nào?",
+      "answer": [
+        "Khi bắt đầu chương trình chạy",
+        "Khi click chuột",
+        "Khi kết thúc một chương trình"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "22",
+      "topicID": 3,
+      "quesion": "Trong Javascript sự kiện Onblur thực hiện khi nào?",
+      "answer": [
+        "Khi một đối tượng trong form mất focus",
+        "Khi một đối tượng trong form có focus",
+        " Khi di chuyển con chuột qua form"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "23",
+      "topicID": 3,
+      "quesion": "Trong Javascript sự kiện OnMouseOver thực hiện khi nào?",
+      "answer": [
+        "Khi một đối tượng trong form mất focus",
+        "Khi một đối tượng trong form có focus",
+        "Khi di chuyển con chuột qua một đối tượng trong form"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "24",
+      "topicID": 3,
+      "quesion": " Trong Javascript sự kiện Onclick xảy ra khi nào?",
+      "answer": [
+        "Khi một đối tượng trong form mất focus",
+        "Khi một đối tượng trong form có focus",
+        "Khi click chuột vào nút lệnh"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "25",
+      "topicID": 3,
+      "quesion": "Trong Javascript sự kiện Onchange thực hiện khi nào?",
+      "answer": [
+        "Khi một đối tượng trong form mất focus",
+        "Khi một đối tượng trong form có focus",
+        "Xảy ra khi giá trị của một trường trong form được người dùng thay đổi"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "26",
+      "topicID": 3,
+      "quesion": "Trong Javascript đoạn mã sau cho ra kết quả gì? <script>function kiemtra(){window.open(\"http://Quantrimang.co.\",\"Chao\");}</script>",
+      "answer": [
+        "Khi một đối tượng trong form mất focus",
+        "Khi một đối tượng trong form có focus",
+        "Xảy ra khi giá trị của một trường trong form được người dùng thay đổi"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "27",
+      "topicID": 3,
+      "quesion": "Thẻ <input type='text'> dùng để làm gì?",
+      "answer": [
+        "tạo một ô text để nhập dữ liệu 1 dòng",
+        "Tạo một ô password",
+        "Tạo một  textbox cho phép nhập liệu nhiều dòng"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "28",
+      "topicID": 3,
+      "quesion": "Thẻ <input type='Password'> dùng để làm gì?",
+      "answer": [
+        "tạo một ô text để nhập dữ liệu 1 dòng",
+        "Tạo một ô password",
+        "Tạo một  textbox cho phép nhập liệu nhiều dòng"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "29",
+      "topicID": 3,
+      "quesion": "Thẻ <textarea ></texterea> dùng để làm gì?",
+      "answer": [
+        "tạo một ô text để nhập dữ liệu 1 dòng",
+        "Tạo một ô password",
+        "Tạo một  textbox cho phép nhập liệu nhiều dòng"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "30",
+      "topicID": 3,
+      "quesion": "Thẻ <input type=”Submit” dùng để làm gì?",
+      "answer": [
+        "tạo một ô text để nhập dữ liệu 1 dòng",
+        "Tạo một nút lệnh dùng để gửi tin trong form đi",
+        "Tạo một  textbox cho phép nhập liệu nhiều dòng"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "answers": [
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 1
+        }
+      ],
+      "id": "1"
+    },
+    {
+      "userId": 1,
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 1
+        }
+      ],
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "userId": 1,
+      "topicId": 1,
+      "answer": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 0
+        },
+        {
+          "questionId": 5,
+          "answer": 1
+        },
+        {
+          "questionId": 6,
+          "answer": 0
+        },
+        {
+          "questionId": 7,
+          "answer": 0
+        },
+        {
+          "questionId": 8,
+          "answer": 1
+        },
+        {
+          "questionId": 9,
+          "answer": 1
+        },
+        {
+          "questionId": 10,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "40b2",
+      "userId": 1,
+      "topicId": 1,
+      "answer": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 0
+        },
+        {
+          "questionId": 5,
+          "answer": 1
+        },
+        {
+          "questionId": 6,
+          "answer": 0
+        },
+        {
+          "questionId": 7,
+          "answer": 0
+        },
+        {
+          "questionId": 8,
+          "answer": 1
+        },
+        {
+          "questionId": 9,
+          "answer": 1
+        },
+        {
+          "questionId": 10,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "2740",
+      "userId": 1,
+      "topicId": 1,
+      "answer": [
+        {
+          "questionId": 1,
+          "answer": 2
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 0
+        },
+        {
+          "questionId": 5,
+          "answer": 2
+        },
+        {
+          "questionId": 6,
+          "answer": 1
+        },
+        {
+          "questionId": 7,
+          "answer": 1
+        },
+        {
+          "questionId": 8,
+          "answer": 0
+        },
+        {
+          "questionId": 9,
+          "answer": 0
+        },
+        {
+          "questionId": 10,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "533e",
+      "userId": 1,
+      "topicId": 2,
+      "answer": [
+        {
+          "questionId": 11,
+          "answers": 2
+        },
+        {
+          "questionId": 12,
+          "answers": 0
+        },
+        {
+          "questionId": 13,
+          "answers": 0
+        },
+        {
+          "questionId": 14,
+          "answers": 0
+        },
+        {
+          "questionId": 15,
+          "answers": 1
+        },
+        {
+          "questionId": 16,
+          "answers": 1
+        },
+        {
+          "questionId": 17,
+          "answers": 1
+        },
+        {
+          "questionId": 18,
+          "answers": 2
+        },
+        {
+          "questionId": 19,
+          "answers": 0
+        },
+        {
+          "questionId": 20,
+          "answers": 0
+        }
+      ]
+    },
+    {
+      "id": "36b0",
+      "userId": 1,
+      "topicId": 1,
+      "answer": [
+        {
+          "questionId": 1,
+          "answers": 2
+        },
+        {
+          "questionId": 2,
+          "answers": 0
+        },
+        {
+          "questionId": 3,
+          "answers": 1
+        },
+        {
+          "questionId": 4,
+          "answers": 1
+        },
+        {
+          "questionId": 5,
+          "answers": 0
+        },
+        {
+          "questionId": 6,
+          "answers": 0
+        },
+        {
+          "questionId": 7,
+          "answers": 2
+        },
+        {
+          "questionId": 8,
+          "answers": 1
+        },
+        {
+          "questionId": 9,
+          "answers": 2
+        },
+        {
+          "questionId": 10,
+          "answers": 0
+        }
+      ]
+    }
+  ]
+}

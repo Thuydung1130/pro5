@@ -1,0 +1,88 @@
+
+header{
+    background-color: #e99f14;
+    height: 65px;
+    display: flex;
+    align-items: center;  
+}
+.Main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Menu{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+.LR{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   width: 100%;
+}
+.logo{
+    font-weight: 650;
+    color: #fff;
+    margin-left: 25px;
+    font-size: 25px;
+}
+.function{
+    margin-right: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    border: none;
+    border-radius: 5px;
+   padding: 0;
+    background-color: #e99f14;    
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+.function a,.Menu a{  
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    overflow: hidden;
+    padding: 5px 10px;
+    
+    text-decoration: none;
+   color: #fff; 
+}
+button:hover{
+    background-color: #e37317;
+}
+
+.active{
+    background-color: #e37317;
+    color: #fff;
+    
+}
+footer{
+    background-color: #e37317;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+   
+}
+.notoken{
+    position: fixed;
+   bottom: 0;
+   right: 0;
+   left: 0;
+}
+.Main .Layout{
+    margin-right: 20px;
+}
